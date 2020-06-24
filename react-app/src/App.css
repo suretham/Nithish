@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap');
+:root{
+--sidebar-flex:1.5;
+--condiv-flex:6;
+--fontsize-p:1.2rem;
+--fontsize-nav:1.6rem;
+--typing-font:3rem;
+}
+*
+{
+margin:0;
+padding: 0;
+}
+body
+{
+font-family: 'Raleway';
+}
+.App
+{
+display: inline-flex;
+width: 100vw;
+min-height: 100vh;
+}
+/* .condiv class is for the right side content container*/
+.condivhome
+{
+padding: 100px ;
+background-color: #f4f5f9;
+flex:var(--condiv-flex);
+background-image: url("./img/nithish.jpeg");
+}
+
+.condiv
+{
+padding: 100px ;
+background-color: #f9f7f4;
+flex:var(--condiv-flex);
+}
+
+nav
+{
+padding:60px 30px 0px 30px ;
+flex:var(--sidebar-flex);
+background: rgb(238,103,143);
+background: linear-gradient(90deg, rgba(0, 255, 64, 0.507) 30%,  rgba(255, 196, 0, 0.507) 80%);
+}
+
+nav ul
+{
+  font-size:var(--fontsize-nav) ;
+  text-align: center;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+nav ul li
+{
+  margin:40px;
+  color: #000000;
+}
+
+.active
+{
+font-weight: bolder;
+}
+
+.social
+{
+position: absolute;
+margin-top: 20px;
+display: flex;
+bottom: 60px;
+}
+.social i
+{
+padding-right: 30px;
+font-size: 25px;
+color: #9a9b9c;
+}
+.social i:hover
+{
+color: #ffffff;
+}
+
+.subtopic
+{
+margin:10px 10px 30px 10px !important;
+}
+p
+{
+font-size: var(--fontsize-p);
+}
+h1,h2,h3,h4,p
+{
+margin: 10px;
+}
+
+.widecard
+{
+border:0px solid #9a9b9c;
+display: flex;
+margin:30px 0px 30px 0px;
+}
+.widecard:hover
+{
+color: #1b1d20;
+background-color: #ffffff;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.profilepic
+{
+  color: #1b1d20;
+  height: 690px;
+  width : 1200px;
+}
+
+br {
+  line-height: 50%;
+}
